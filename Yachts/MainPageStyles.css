@@ -1,0 +1,137 @@
+/* All */
+    body{
+        background-color: white;
+    }
+    .container {
+        width: 100%;
+        max-width: 2048px;
+    }
+/* Head */
+    .site-header {
+        width: 100%;
+        height: 760px;
+        margin: 0 auto 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .video-text{
+        position: absolute;
+        margin: 2%;
+        width: 96%;
+        height: 91%;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+    }
+    .video-text h1{
+        margin: 15% 15% 15% 15%;
+        color: white;
+        font-size: 300px;
+        font-family: Courier;
+        font-weight: 500;
+    }
+    .video-text p{
+        margin-top: -7%;
+        margin-left: 55%;
+        color: white;
+        font-size: 30px;
+        font-family: Courier;
+    }
+/* Interruption */
+    .interruption{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+    }
+    .interruption p{
+        letter-spacing: 60px;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+    }
+/* Yachts Menu */
+    /* Main */
+        .yachts-menu{
+            width: 100%;
+        }
+        .row{
+            width: 100%;
+            height: 380px;
+            display: table;
+        }
+        .yachts-menu a{
+            font-weight: bold;
+            font-size: 22px;
+            font-family: Courier;
+            color: rgb(1, 194, 219);
+            text-decoration: none;
+            transition: .3s ease-in-out;
+        }
+        .yachts-menu a:hover{
+            color: rgb(0, 131, 148);
+        }
+    /* Img */
+        .yacht-img{
+            min-width: 50%;
+            max-width: 60%;
+            height: 500px;
+            position: relative;
+            float: left;
+        }
+        .yacht-img img{
+            height: 100%;
+            width: auto;
+        }
+        .img-text{
+            margin: 6%;
+            border: white;
+            height: 78%;
+            width: 87%;
+            border-style: solid;
+            border-width: 3px;
+            position: absolute;
+        }
+        .img-text p{
+            margin: 2%;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: Courier;
+        }
+    /* Info */
+        .yacht-info{
+            width: auto;
+            height: 100%;
+            margin-top: 8%;
+            margin-left: 68%;
+        }
+        .yacht-info h3{
+            color: black;
+            font-family: 'Muli', sans-serif;
+            font-size: 25px;
+        }
+        .yacht-info h1{
+            color: black;
+            font-weight: 400;
+            font-family: 'Muli', sans-serif;
+            font-size: 50px;
+        }
+        .yacht-info p{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: Courier;
+        }
+        .blue-line{
+            margin-top: 5px;
+            width: 100px;
+            height: 10px;
+            background-color: rgb(1, 194, 219);
+        }
+/* Footer */
+    .Footer{
+        width: 100%;
+        height: 110px;
+        background-color: black;
+        margin-top: 10px;
+    }
