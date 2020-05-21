@@ -101,7 +101,7 @@ header{
 /* Main */
 .content{
     width: 80%;
-    height: 300px;
+    height: 45%;
     margin: 3% 10% 3% 10%;   
 }
 .news{
@@ -135,54 +135,78 @@ header{
     float: right;
     background-color: rgb(207, 207, 207);
 }
-/* Footer */
-    footer{
-        height: 25%;
-        background-color: rgb(58, 58, 58);
-        margin-top: 10%;
+    .information u{
+        color: black;
     }
-    .footer-info-rrr{
-        float: right;
-        height: 100%;
-        width: 40%;
-    }
-    .footer-info-rr{
-        float: right;
-        height: 100%;
-        width: 20%;
-    }
-    .footer-info-r{
-        float: right;
-        height: 100%;
-        width: 40%;
-    }
-    footer p{
-        color: white;
-        padding-top: 5%;
-        padding-left: 30%;
+    .information h2{
+        color: black;
         text-align: left;
+        padding-left: 2%;
+        padding-top: 2%;
+        font-size: xx-large;
     }
-    footer li{
-        padding-top: 8%;
-        list-style: none;
+    .info-list{
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 10%;
     }
-    footer ul{
+    .info-border{
+        border-right: 3px solid black;
+    }
+    .information li{
         padding-top: 2%;
     }
-    footer a{
+/* Footer */
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+.footer-name{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+    .footer-name p{
+        padding-top: 20%;
+        text-align: left;
+        color: white;
+        font-size: 12px;
+    }
+.footer-logo{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+    .footer-logo img{
+        width: 15%;
+        height: auto;
+        margin-left: 85%;
+        margin-top: 8%;
+    }
+.footer-menu{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+    .footer-menu ul{
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .footer-menu li{
+        padding-top: 1%;
+    }
+    .footer-menu a{
         color: white;
     }
-    .pict{
-        float: right;
-        width: 30%;
-        height: 100%;
-    }
-    .text-c{
-        float: right;
-        width: 70%;
-        height: 100%;
-    }
-    .pict img{
-        padding-top: 20%;
-        float: right;
-    }
+.footer-mail{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.footer-mail p{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 15%;
+}
